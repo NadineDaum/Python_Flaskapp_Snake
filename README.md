@@ -51,8 +51,8 @@ Our game includes the following features:
 
 The game features a persistent leaderboard stored in `data/leaderboard.json`. To manage this data:
 1.  The `archive_leaderboard.py` script creates a daily backup of the current `leaderboard.json` into the `leaderboard_archives/` directory, named with the date (e.g., `leaderboard_YYYY-MM-DD.json`).
-2.  On our PythonAnywhere deployment, this script is **automated via a daily cron job**. This ensures regular data backup and can help to manage the size of the live leaderboard file.
-*(Note: The script has a `RESET_LEADERBOARD_AFTER_ARCHIVE` flag (set in `config.py`), while currently this is set to `False`, for future usage it could allow for daily/weekly leaderboard resets).*
+2.  On our PythonAnywhere deployment, this script is **automated via a daily cron job**. This ensures regular data backup and helps manage the size of the live leaderboard file.
+*(Note: The script has a `RESET_LEADERBOARD_AFTER_ARCHIVE` flag (set in `config.py`), currently `False`, which could allow for daily/weekly leaderboard resets if desired in the future).*
 
 ---
 
@@ -83,7 +83,7 @@ Feel free to explore the code, contribute, or reach out with any questions! 🎯
     # $env:FLASK_DEBUG="1" # On Windows PowerShell
     flask run
     ```
-
+    
     The application's specific debug features (e.g., logging levels) are controlled by the `DEBUG` setting in `config.py`. To enable these for development, edit `config.py` and set `DEBUG = True`.
 
 5.  Access the game in your browser, typically at `http://127.0.0.1:5000/`.
