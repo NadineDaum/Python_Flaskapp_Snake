@@ -1,3 +1,5 @@
+Okay, here's the revised README.md. I've kept your original content and integrated the concise additions as planned.
+
 # Maze Game 🐍
 
 **Course:** Data Structures & Algorithms (Hertie School)  
@@ -24,7 +26,6 @@ Maze generation is achieved using **Kruskal's algorithm** (optimized with a Disj
 *   **Core Logic (`src/`):**
     *   `maze_generator.py`: Implements Kruskal's algorithm and Disjoint Set Union (DSU).
     *   `maze_solver.py`: Implements Breadth-First Search (BFS).
-*   **Configuration:** Application settings, including debug mode, are managed in `config.py`.
 *   **Data Management:** Leaderboard scores are stored in `data/leaderboard.json` (auto-created by `app.py` if permissions allow). The `leaderboard_archives/` directory stores daily backups.
 *   **Automated Archival:** The `archive_leaderboard.py` script manages daily backups of the leaderboard.
 *   **Presentation & Documentation:** Project slides (`slides/`) developed with RMarkdown; error help in `documentation/`.
@@ -52,7 +53,7 @@ Our game includes the following features:
 The game features a persistent leaderboard stored in `data/leaderboard.json`. To manage this data:
 1.  The `archive_leaderboard.py` script creates a daily backup of the current `leaderboard.json` into the `leaderboard_archives/` directory, named with the date (e.g., `leaderboard_YYYY-MM-DD.json`).
 2.  On our PythonAnywhere deployment, this script is **automated via a daily cron job**. This ensures regular data backup and helps manage the size of the live leaderboard file.
-*(Note: The script has a `RESET_LEADERBOARD_AFTER_ARCHIVE` flag (set in `config.py`), currently `False`, which could allow for daily/weekly leaderboard resets if desired in the future).*
+*(Note: The script has a `RESET_LEADERBOARD_AFTER_ARCHIVE` flag, currently `False`, which could allow for daily/weekly leaderboard resets if desired in the future).*
 
 ---
 
@@ -76,16 +77,14 @@ Feel free to explore the code, contribute, or reach out with any questions! 🎯
     pip install -r requirements.txt
     ```
 4.  **Run the Flask application:**
-    For development with Flask's reloader and debugger, you can set the `FLASK_DEBUG` environment variable:
+    For debug mode (recommended for development):
     ```bash
     export FLASK_DEBUG=1  # On Linux/macOS
     # set FLASK_DEBUG=1     # On Windows Command Prompt
     # $env:FLASK_DEBUG="1" # On Windows PowerShell
     flask run
     ```
-    
-    The application's specific debug features (e.g., logging levels) are controlled by the `DEBUG` setting in `config.py`. To enable these for development, edit `config.py` and set `DEBUG = True`.
-
+    Alternatively, run `python app.py`.
 5.  Access the game in your browser, typically at `http://127.0.0.1:5000/`.
 
 ---
@@ -94,7 +93,6 @@ Feel free to explore the code, contribute, or reach out with any questions! 🎯
 - Ashley Razo is a first-year Master of Data Science student at Hertie School.
 - Nadine Daum is a first-year Master of Data Science student at Hertie School.
 - Laia Domenech Burin is a first-year Master of Data Science student at Hertie School.
-- Franco Bastida is a second-year Master of Public Policy + Master of D
-ata Science (Dual Degree) student at Hertie School.
+- Franco Bastida is a second-year Master of Public Policy + Master of Data Science (Dual Degree) student at Hertie School.
 - Mika Erik Moeser is a first-year Master of Data Science student at Hertie School.
 - Nicolas Reichardt is a first-year Master of Data Science student at Hertie School.
