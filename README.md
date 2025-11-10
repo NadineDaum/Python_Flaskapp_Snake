@@ -1,5 +1,3 @@
-Okay, here's the revised README.md. I've kept your original content and integrated the concise additions as planned.
-
 # Maze Game 🐍
 
 **Course:** Data Structures & Algorithms (Hertie School)  
