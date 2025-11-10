@@ -51,12 +51,6 @@ The game features a persistent leaderboard stored in `data/leaderboard.json`. To
 
 ---
 
-We followed the **Scrum methodology** for iterative development, enabling us to build and refine features effectively. Laia took on the role of surrogate Product Owner, and Nicolas served as Scrum Master.
-
-Feel free to explore the code, contribute, or reach out with any questions! 🎯
-
----
-
 ## Running Locally
 
 1.  **Clone the repository.**
