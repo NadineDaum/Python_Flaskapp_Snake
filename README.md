@@ -1,9 +1,5 @@
 # Maze Game 🐍
 
-**Course:** Data Structures & Algorithms (Hertie School)  
-**Instructor:** Meysam Goodarzi  
-**Group members:** Ashley Razo, Nadine Daum, Laia Domenech Burin, Franco Bastida, Mika Erik Moeser, Nicolas Reichardt
-
 ---
 **Live Demo:** [Play the Maze Game on PythonAnywhere!](https://thesnakegame.pythonanywhere.com/) 🚀
 ---
@@ -87,10 +83,7 @@ Feel free to explore the code, contribute, or reach out with any questions! 🎯
 
 ---
 
-## List of Contributors
-- Ashley Razo is a first-year Master of Data Science student at Hertie School.
-- Nadine Daum is a first-year Master of Data Science student at Hertie School.
-- Laia Domenech Burin is a first-year Master of Data Science student at Hertie School.
-- Franco Bastida is a second-year Master of Public Policy + Master of Data Science (Dual Degree) student at Hertie School.
-- Mika Erik Moeser is a first-year Master of Data Science student at Hertie School.
-- Nicolas Reichardt is a first-year Master of Data Science student at Hertie School.
+**Course:** Data Structures & Algorithms (Hertie School)  
+**Instructor:** Meysam Goodarzi  
+**Group members:** Ashley Razo, Nadine Daum, Laia Domenech Burin, Franco Bastida, Mika Erik Moeser, Nicolas Reichardt
+
