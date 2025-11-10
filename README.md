@@ -79,5 +79,5 @@ The game features a persistent leaderboard stored in `data/leaderboard.json`. To
 
 **Course:** Data Structures & Algorithms (Hertie School)  
 **Instructor:** Meysam Goodarzi  
-**Group members:** Ashley Razo, Nadine Daum, Laia Domenech Burin, Franco Bastida, Mika Erik Moeser, Nicolas Reichardt
+**Group members:** Franco Bastida, Nadine Daum, Laia Domenech Burin, Mika Erik Moeser, Ashley Razo, Nicolas Reichardt
 
